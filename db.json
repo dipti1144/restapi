@@ -1,4 +1,29 @@
 {
+  "freelancers":[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password",
+      "profession": "Web Developer",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "hourly_rate": 25,
+      "profile_picture": "profile1.jpg",
+			"isBooked" : false
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password",
+      "profession": "Graphic Designer",
+      "skills": ["Photoshop", "Illustrator"],
+      "hourly_rate": 30,
+      "profile_picture": "profile2.jpg",
+			"isBooked" : true
+    }
+  ],
+
   "appointments":[{
 	  "name": "Jane Doe",
 	  "image": "https://example.com/doctor-image.jpg",
@@ -44,6 +69,7 @@
     "id":4
 	}
 ],
+
   "users":[],
   "dogs": [
     {
